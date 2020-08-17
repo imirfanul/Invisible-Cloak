@@ -1,1 +1,1 @@
-# Invisible-Cloak
+The project is based on computer vision. Specifically this is built with openCV. By segmenting a single predefined color from a video footage and replacing it with a preexisting same background, we can create the immersion of invisibility cloak. Like the one used in Harry Potter
