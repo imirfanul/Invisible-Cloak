@@ -17,7 +17,7 @@ count = 0
 background = 0
 
 ## Capture the background in range of 60
-for i in range(60):
+for _ in range(60):
     ret, background = cap.read()
 background = np.flip(background, axis=1)
 
@@ -33,7 +33,7 @@ while (cap.isOpened()):
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
     ## Generat masks to detect red color
-    
+
     ##YOU CAN CHANGE THE COLOR VALUE BELOW ACCORDING TO YOUR CLOTH COLOR
     lower_red = np.array([0, 120, 70])
     upper_red = np.array([10, 255,255])
